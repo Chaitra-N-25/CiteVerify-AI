@@ -1,0 +1,7 @@
+
+streamlit
+PyMuPDF
+numpy
+scikit-learn
+google-genai
+requests
