@@ -510,7 +510,7 @@ st.write(
     "content between the uploaded research paper and comparison papers."
 )
 
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY", ""))
 
 if not api_key:
 
